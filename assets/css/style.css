@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
@@ -21,43 +24,64 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
-  white-space: pre-wrap;
+.container{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
 }
 
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
+/* Individual Row Styling */
 .row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
+/* Hour portion on the left hand side */
 .hour {
+  display: flex;
+  width: 10%;
+  align-items: flex-start;
+  justify-content: flex-end;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* Time indication styles */
 .past {
+  display: flex;
+  width: 80%;
+  overflow-wrap: break-word;
+  padding: 1%;
   background-color: #d3d3d3;
-  color: white;
+  color: #000000;
 }
 
 .present {
+  display: flex;
   background-color: #ff6961;
-  color: white;
+  color: #000000;
 }
 
 .future {
+  display: flex;
   background-color: #77dd77;
   color: white;
 }
 
+/* Button Styles */
 .saveBtn {
+  display: flex;
+  width: 10%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -66,6 +90,6 @@ textarea{
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 55px;
   transition: all .3s ease-in-out;
 }
