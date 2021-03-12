@@ -2,7 +2,7 @@
 
 For this project I had to take a some pre-existing html and css and create a daily planner for use during typical business hours. The time block that correlates with the current hour is displayed as red and the future hours are displayed in green while the hours that have already passed are displayed in grey. Each time slot has a save button which allows you to save the text written for that current day. This way when you re-load you can keep your to-dos for another day.
 
-The page is deployed live here: https://wron1.github.io/password-generator/
+The page is deployed live here: https://wron1.github.io/Work-Day-Scheduler/
 
 Thank you for checking out my project and have fun planning!
 
