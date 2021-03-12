@@ -173,7 +173,7 @@ switch(theCurrentHour){
 
     break;
 
-    case '10PM':
+    case '12PM':
 
         inputFields[0].style.backgroundColor = '#d3d3d3';
         inputFields[1].style.backgroundColor = '#d3d3d3';
